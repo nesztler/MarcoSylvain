@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MarcoSylvain</string>
+    <string name="read_me">\t Entrez soit le numéro d\'article QAD ou soit le numéro d\'article BDDP
+        qui sera identique au numéro d\'article SAP sans vous préoccuper de la case. \n\tValidez en appuyant sur le
+        bouton RECHERCHE. \n\tSi vous avez des questions ou souhaitez une amélioration
+        de cette application, n\'hésitez pas à prendre contact avec moi au 04 76 86 10 75.
+    </string>
+    <string name="toast_message">Nombre de caractères trop important. \nRecommencez.</string>
+    <string name="toast_nbval">Nombre de valeurs trouvées : %1$d </string>
+</resources>

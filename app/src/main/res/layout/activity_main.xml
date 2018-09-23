@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="355dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:background="@drawable/layoutstyle"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:fontFamily="serif"
+                android:text="Articles Moirans"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtCodeQAD"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/buttonstyle"
+                android:fontFamily="serif"
+                android:hint="Code article TLCD"
+                android:inputType="textCapCharacters"
+                android:padding="20dp"
+                android:textColor="#fff" />
+
+            <EditText
+                android:id="@+id/edtCodeBDDP"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/buttonstyle"
+                android:fontFamily="serif"
+                android:hint="Code article BDDP/SAP"
+                android:inputType="textCapCharacters"
+                android:padding="20dp"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/btnRecherche"
+                android:layout_width="wrap_content"
+                android:background="@drawable/buttonstyle1"
+                android:layout_margin="5dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:text="          Recherche           " />
+
+            <Button
+                android:id="@+id/btnEfface"
+                android:layout_width="wrap_content"
+                android:background="@drawable/buttonstyle2"
+                android:layout_margin="5dp"
+                android:layout_height="58dp"
+                android:layout_gravity="center"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:text="        Efface tout        " />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:text="Mode d'emploi"
+            android:textColor="#ff0000"
+            android:textSize="20sp" />
+
+             <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#ff0000" />
+
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:fontFamily="serif"
+                android:gravity="start"
+                android:text="@string/read_me"
+                android:textColor="#000" />
+
+       </LinearLayout>
+</LinearLayout>
